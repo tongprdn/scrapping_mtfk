@@ -5,7 +5,7 @@ import glob
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-DATA_PATH = os.path.join("..", "data", "raw")
+DATA_PATH = os.path.join("../..", "data", "raw")
 CATEGORY_FILENAME = "category_page"
 PRODUCT_FILENAME = "product_page"
 MAIN_URL = "https://www.amazon.com"
